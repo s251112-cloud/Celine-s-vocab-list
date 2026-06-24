@@ -1,0 +1,140 @@
+/* Core Styling Rules & Modern Core Settings */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Header Text Blocks */
+header {
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    color: #111827;
+    margin: 0 0 8px 0;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #4b5563;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+}
+
+.intro-text {
+    background-color: #f8fafc;
+    border-left: 4px solid #3b82f6;
+    padding: 16px;
+    border-radius: 0 8px 8px 0;
+    color: #374151;
+    margin: 0;
+}
+
+header strong {
+    color: #2563eb;
+}
+
+/* Table Architecture */
+.table-responsive {
+    overflow-x: auto;
+    margin-bottom: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    color: #374151;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+tr:hover {
+    background-color: #f8fafc;
+}
+
+.idiom-name {
+    font-weight: 600;
+    color: #1e3a8a;
+}
+
+/* Highlighting the Modals and Expressions within the table */
+td strong {
+    color: #b91c1c; /* Crimson color to isolate modals */
+    background-color: #fef2f2;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+td em {
+    font-style: italic;
+    color: #1e40af;
+    font-weight: 500;
+}
+
+.checkbox-cell {
+    text-align: center;
+}
+
+.checkbox-cell input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* Style Note Section Container */
+.style-note {
+    background-color: #fff7ed;
+    border: 1px solid #ffedd5;
+    border-left: 5px solid #f97316;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.style-note h3 {
+    margin-top: 0;
+    color: #c2410c;
+    font-size: 1.2rem;
+}
+
+.style-note ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.style-note li {
+    margin-bottom: 8px;
+}
+
+.style-note li:last-child {
+    margin-bottom: 0;
+}
